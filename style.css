@@ -1,0 +1,195 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.topheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 10px 50px;
+}
+
+#headertext {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navigation {
+    display: flex
+}
+
+.navigation li{
+    margin: 0 15px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: white;
+}
+
+.herosection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: #1f2937;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.herotext {
+    max-width: 50%;
+
+}
+
+.herotext h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.herotext p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.herotext button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.heroimage img {
+    max-width: auto;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.infosection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 50px 0;
+    background-color: #f3f4f6;
+}
+
+.infotext {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.infoitems {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.infoitem1, .infoitem2, .infoitem3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    padding: 0 50px;
+}
+.quotesection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 50px 0;
+}
+
+.quotetext {
+    display: flex;
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+    max-width: 800px;
+}
+
+.quoteauthor {
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    font-size: 14px;
+}
+
+.ctasection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.ctabox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 100px;
+    background-color: #3b82f6;
+    color: white;
+    margin: 80px;
+    padding: 30px 50px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.ctatext {
+    max-width: 60%;
+}
+
+.ctabutton {
+    max-width: 40%;
+}
+
+.ctatext h2 {
+    font-size: 24px;
+}
+
+.ctatext p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.ctabutton button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: transparent;
+    color: white;
+    border: white;
+    border-width: 2px;
+    border-radius: 5px;
+    border-style: solid;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111827;
+    color: white;
+    padding: 20px 0;
+    margin-top: auto;
+}
